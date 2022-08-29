@@ -15,7 +15,7 @@ module.exports = {
             const embed = new EmbedBuilder()
             .setTitle(`** ${message.user === undefined ? message.author.tag : message.user.tag} a un qi de  ${amount} **`)
             .setColor("2f3136")
-            .setFooter({ text: `Demandé par discord.gg/sinixdev})
+            .setFooter({ text: `Demandé par discord.gg/sinixdev`})
             return message.reply({embeds: [embed]}); 
     }
 }
