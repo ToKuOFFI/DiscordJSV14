@@ -31,7 +31,8 @@ module.exports = {
             let Say = new EmbedBuilder()
             .setColor(`#aaaa`)
             .setThumbnail(message.guild.iconURL({ dynamic: true }))
-            .setTitle("** ${saymessage} **")
+            .setTitle("** Say **")
+             .addFields({name: `**Say:** `, value: ${saymessage}`** **`})
             .setTimestamp()
 
                 await message.reply({ embeds: [Say] })      
