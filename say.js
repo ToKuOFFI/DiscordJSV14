@@ -32,7 +32,7 @@ module.exports = {
             .setColor(`#aaaa`)
             .setThumbnail(message.guild.iconURL({ dynamic: true }))
             .setTitle("** Say **")
-             .addFields({name: `**Say:** `, value: ${saymessage}`** **`})
+             .addFields({name: `**Say:** `, value:`** ${saymessage} **`})
             .setTimestamp()
 
                 await message.reply({ embeds: [Say] })      
