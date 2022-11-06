@@ -1,6 +1,5 @@
 const Discord = require("discord.js")
-const loadSlashCommands = require("../Structures/loadSlashCommands")
-const loadDataBase = require('../Structures/loadDataBase');
+
 
 module.exports = async toku => {
   /* Permet de savoir sur quelle serveur est le bot ! */
